@@ -1,0 +1,23 @@
+{
+  "version": "0.1.2",
+  "description": "A free, self-hosted long-URL generator on Cloudflare Quick Tunnels",
+  "homepage": "https://github.com/zien0709/zinc",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/zien0709/zinc/releases/download/v0.1.2/zinc-windows-x64.exe",
+      "hash": "79d915e2388eeeb2a6fc47bb17b9e0b9f4d1cc83ec262a9b9297c0193f1d517c"
+    }
+  },
+  "bin": "zinc-windows-x64.exe",
+  "checkver": {
+    "github": "https://github.com/zien0709/zinc"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/zien0709/zinc/releases/download/v$version/zinc-windows-x64.exe"
+      }
+    }
+  }
+}
